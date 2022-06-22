@@ -26,7 +26,7 @@ public class exemplo_map {
 
 
         System.out.println("exibe os modelos: ");
-        Set<String> modelos = carrosPopulares.keySet();
+        carrosPopulares.keySet();
 
         System.out.println("Exiba os consumos dos carros: ");
         Collection<Double> consumos = carrosPopulares.values();

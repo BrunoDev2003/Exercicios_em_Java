@@ -1,5 +1,5 @@
 package DIO.basecamp;
 
-public class ArrayList<> {
+public class ArrayList {
 
 }

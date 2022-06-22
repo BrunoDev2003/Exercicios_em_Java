@@ -6,10 +6,6 @@ public class ordenação_collections {
     public static void main(String[] args) {
 
         List<Gato> Gatos = new ArrayList<>(){{
-            String nome;
-            add(new Gato (nome:"Luis", idade:18, cor:"branco"));
-            add(new Gato (nome:"Luis", idade:18, cor:"branco"));
-            add(new Gato (nome:"Luis", idade:18, cor:"branco"));
         }}; 
         System.out.println(Gatos);
     }
