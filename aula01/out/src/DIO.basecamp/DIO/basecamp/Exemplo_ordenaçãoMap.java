@@ -3,7 +3,7 @@ package DIO.basecamp;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+//import java.util.Objects;
 import java.util.Map.Entry;
 public class Exemplo_ordenaçãoMap {
     private static Entry<String, Livro> livro;
@@ -13,13 +13,12 @@ public class Exemplo_ordenaçãoMap {
 
         System.out.println("--\tOrdem aleatória\t--");
         Map<String, Livro> meusLivros = new HashMap<>(){{
-            put(" Hawking, Stephen", new Livro("Uma breve historia do tempo", 256));
-            put(" Hawking, Stephen", new Livro("O poder do habito", 408));
-            put(" Hawking, Stephen", new Livro("21 lições para o século 21", 208));
+           //
 
         }};
         for(Map.Entry<String, Livro>livro : meusLivros.entrySet());
         System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
+        System.out.println(livro);
 
     }
 
